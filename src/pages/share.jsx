@@ -35,7 +35,7 @@ const Share = () => {
         </div>
 
         <div className="lg:mx-16">
-          {/* Title and Password Field */}
+          {/* Title and Address*/}
           <div className="flex flex-col lg:flex-row items-center mb-20">
             <div className="flex-grow md:mr-4">
               <h1 className="font-extrabold mb-4 text-left text-7xl ml-4 md:ml-0"><span className="text-yellow-500">Easy</span> Share<span className="text-yellow-500">,</span></h1>
