@@ -27,7 +27,7 @@ const Share = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-start justify-start bg-gradient-to-tr from-pink-500 via-[#12196B] to-[#0E0A2A] text-white overflow-hidden">
+    <div id="/share" className="min-h-screen flex items-start justify-start bg-gradient-to-tr from-pink-500 via-[#12196B] to-[#0E0A2A] text-white overflow-hidden">
       <div className="w-full p-8">
         {/* Logo */}
         <div className="mb-8 ml-8">
