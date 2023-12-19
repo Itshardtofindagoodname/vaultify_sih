@@ -50,8 +50,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <div className="lg:w-1/2 relative hidden lg:block">
-  <div className="bg-white right-0 h-96 w-96 blur-3xl z-0 absolute"/>
+      <div className="lg:w-1/2 top-10 relative hidden lg:block"> 
   <img
     src={Blocks}
     alt="Main Illustration"
