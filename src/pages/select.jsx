@@ -70,17 +70,17 @@ const Select = () => {
               <button onClick={() => handleButtonClick("Lawyer")} className="relative">
                 <span className="text-4xl">I'm a<br /> <span className="text-yellow-300 font-bold">Lawyer</span></span>
                 {renderAnimation("Lawyer")}
-                <img src={LawyerIcon} alt="Logo" className="w-40 h-40" />
+                <img src={LawyerIcon} alt="Logo" className="w-60 h-60" />
               </button>
               <button onClick={() => handleButtonClick("Client")} className="relative">
                 <span className="text-4xl">I'm a<br /> <span className="text-yellow-300 font-bold">Client</span></span>
                 {renderAnimation("Client")}
-                <img src={ClientIcon} alt="Logo" className="w-40 h-40" />
+                <img src={ClientIcon} alt="Logo" className="w-60 h-60" />
               </button>
               <button onClick={() => handleButtonClick("Judge")} className="relative">
                 <span className="text-4xl">I'm a<br /> <span className="text-yellow-300 font-bold">Judge</span></span>
                 {renderAnimation("Judge")}
-                <img src={JudgeIcon} alt="Logo" className="w-40 h-40" />
+                <img src={JudgeIcon} alt="Logo" className="w-60 h-60" />
               </button>
             </div>
 

@@ -7,6 +7,7 @@ import Judge from "./pages/judge"
 import Client from "./pages/client"
 import Select from "./pages/select"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import User from "./pages/user"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/select" element={<Select/>}/>
       </Routes>
       </BrowserRouter>
+      <User/>
     </>
   )
 }

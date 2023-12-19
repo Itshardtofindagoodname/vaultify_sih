@@ -31,14 +31,14 @@ function Home() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center space-y-4">
-          <Link to={'/tutorial'} style={button1Style} className="text-white px-4 py-2 lg:w-96 w-72 rounded-xl">
+        <div className="flex flex-col ml-2 space-y-4">
+          <Link to={'/tutorial'} style={button1Style} className="text-white px-4 py-2 lg:w-[500px] w-72 rounded-xl">
             <div className="flex flex-row justify-center">
               <span className="px-4 font-bold">Tutorial</span>
               <BsFillPatchQuestionFill className="w-7 h-7 text-yellow-400" />
             </div>
           </Link>
-          <Link to={'/select'} style={button2Style} className="text-white px-4 py-2 lg:w-96 w-72 rounded-xl">
+          <Link to={'/select'} style={button2Style} className="text-white px-4 py-2 lg:w-[500px] w-72 rounded-xl">
             <div className="flex flex-row justify-center">
               <span className="px-4 font-bold">Connect to</span>
               <img
