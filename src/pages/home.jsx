@@ -4,6 +4,7 @@ import MetaMaskIcon from '../assets/metamask-icon.svg'
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 import VaultifyIcon from '../assets/vaultify.png'
 import { Link, useNavigate } from "react-router-dom";
+import Chatbot from "./chatbot";
 
 function Home() {
   const button1Style = {
@@ -56,6 +57,7 @@ function Home() {
     alt="Main Illustration"
     className="w-full h-full object-cover z-1 relative"
   />
+  <Chatbot/>
 </div>
 
     </div>

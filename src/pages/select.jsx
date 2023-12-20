@@ -37,7 +37,7 @@ const Select = () => {
   const renderAnimation = (role) => {
     if (selectedRole === role) {
       return (
-        <div className="absolute top-10 left-0 w-full h-full flex items-center justify-center">
+        <div className="absolute w-full h-full flex items-center justify-center">
           <Lottie animationData={CheckboxAnimation} loop={false} />
         </div>
       );

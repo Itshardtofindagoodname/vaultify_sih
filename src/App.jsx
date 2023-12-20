@@ -7,7 +7,7 @@ import Judge from "./pages/judge"
 import Client from "./pages/client"
 import Select from "./pages/select"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import User from "./pages/user"
+import DragDrop from "./pages/dragndrop"
 
 function App() {
 
@@ -23,8 +23,8 @@ function App() {
       <Route path="/judge" element={<Judge/>}/>
       <Route path="/select" element={<Select/>}/>
       </Routes>
-      </BrowserRouter>
-      <User/>
+      </BrowserRouter>  
+      <DragDrop/>
     </>
   )
 }

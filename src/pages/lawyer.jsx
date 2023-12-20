@@ -82,9 +82,6 @@ const Lawyer = () => {
                     className="lg:w-full h-10 px-10 py-1 border rounded-xl border-none focus:outline-none"
                     style={{ background: '#4C4966', color: '#fff' }}
                   />
-                  <span className="absolute top-3 left-3">
-                    <RiSearch2Line color="#fff" />
-                  </span>
               </div>
             </div>
           </div>
